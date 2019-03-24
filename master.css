@@ -1,0 +1,52 @@
+
+#main{
+  margin:auto;
+}
+.row{
+  display:flex;
+  background-color: grey;
+  height:40px;
+  /* border:1px solid black; */
+}
+.wall{
+  background-image: url("wood_tile.jpg") !important;
+  background-size:     cover !important;                      /* <------ */
+  background-repeat:   no-repeat !important;
+  background-position: center center !important;
+}
+#user{
+  background-color: black;
+  width:20px;
+  height:20px;
+}
+
+#l{
+  width:40px;
+  height:40px;
+  background-color: grey;
+  /* border:1px solid black; */
+
+}
+#l:hover{
+  width:40px;
+  height:40px;
+  border: 1px solid black;
+  z-index: 10;
+}
+.water{
+  background-image: url("water.jpg") !important;
+  background-size:     cover !important;                      /* <------ */
+  background-repeat:   no-repeat !important;
+  background-position: center center !important;
+}
+.ground{
+  background-image: url("ground.png") !important;
+  background-size:     cover !important;                      /* <------ */
+  background-repeat:   no-repeat !important;
+  background-position: center center !important;
+}
+.playerStart{
+  width:40px;
+  height:40px;
+  background-color: black;
+}
